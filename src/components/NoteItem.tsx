@@ -17,6 +17,7 @@ function NoteItem({ item, handleDelete, handleShowEdit }: Props) {
           className="hover:cursor-pointer"
           onClick={() => handleShowEdit(item.id)}
         />
+
         <DeleteOutlined
           className="hover:cursor-pointer"
           onClick={() => handleDelete(item.id)}
